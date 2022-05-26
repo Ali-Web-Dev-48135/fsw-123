@@ -1,0 +1,22 @@
+.cardWrapperDiv
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 0.3rem;
+
+    
+}
+
+.cardWrapperDiv p 
+{
+    border-top: 0.1rem solid white;
+    width: 100%;
+    padding: 0.8rem 0rem 0rem 0rem;
+    
+
+}
+

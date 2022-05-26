@@ -1,8 +1,5 @@
 import ToDoList from "./components/ToDoElement/ToDoList";
 
-
-
-
 const App = () => {
 
   return (
