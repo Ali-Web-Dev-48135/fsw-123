@@ -82,7 +82,8 @@ const ToDo = ({data, completeTodoProp, deleteTodoProp, editToDo, submitEdit}) =>
                             <input type={element.editState ? "text" : "checkbox"} 
                                 checked = {element.isCompleted} 
                                 value={element.editState ? inputValue : element.text}
-                                onChange={(event) => {!element.editState ? completeElementHandler(element.id): setInputValueHandler(event);}}
+                                onChange={(event) => {!element.editState ? completeElementHandler(element.id): 
+                                    setInputValueHandler(event);}}
                                  placeholder={element.text}
                                  />
                                 {
